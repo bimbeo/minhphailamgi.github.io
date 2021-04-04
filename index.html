@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <!-- h1 - h6 heading
+    p - paragraph
+    a - anchor
+    img - image
+    ul - li - unordered list, list item
+    table
+    input
+    button
+    div - khối
+ -->
+    <head>
+        <title> BB.Store </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <!--<style>         
+            h1 {
+                color: red;
+                font-size: 30px;
+            }
+        </style> -->
+    </head>
+    <!--    Background-clip
+                .header {
+            width: 100%;
+            height: 100px;
+            background-color: #333;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 10px dashed #ccc;
+            background-clip: content-box;
+            background-image: url(https://pngimg.com/uploads/star/star_PNG1597.png), url(https://static.wixstatic.com/media/01d6a6_2e13b8874c214a2dbfcf2554f9e70e32~mv2_d_1600_1224_s_2.jpeg/v1/fill/w_925,h_708,al_c,q_90,usm_0.66_1.00_0.01/01d6a6_2e13b8874c214a2dbfcf2554f9e70e32~mv2_d_1600_1224_s_2.webp);
+            background-size: 100%;
+            background-image: linear-gradient(0, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5 )), 
+            url(https://static.wixstatic.com/media/01d6a6_2e13b8874c214a2dbfcf2554f9e70e32~mv2_d_1600_1224_s_2.jpeg/v1/fill/w_925,h_708,al_c,q_90,usm_0.66_1.00_0.01/01d6a6_2e13b8874c214a2dbfcf2554f9e70e32~mv2_d_1600_1224_s_2.webp);
+            background-image: url(https://previews.123rf.com/images/littlefoxhill/littlefoxhill1804/littlefoxhill180400007/100122089-vector-sleepy-animal-seamless-repeat-background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        --> 
+    -->
+    <!-- Phần thân -->
+    <body>
+        Xin chào các bạn!
+        <h1>BB.Store - Tai nghe đồ công nghệ</h1>
+        <input name="gender" type="radio">
+        <input name="gender" type="radio">
+        <input name="gender" type="radio">
+        <button>Đăng ký
+        </button>
+        <p> Cho em hỏi thẻ <b> trong html </b> sử dụng như thế nào vậy. </p>
+        <img src="https://static.wixstatic.com/media/01d6a6_2e13b8874c214a2dbfcf2554f9e70e32~mv2_d_1600_1224_s_2.jpeg/v1/fill/w_925,h_708,al_c,q_90,usm_0.66_1.00_0.01/01d6a6_2e13b8874c214a2dbfcf2554f9e70e32~mv2_d_1600_1224_s_2.webp " alt= " Ảnh test">
+        <a href="http://minhphailamgi.com/"> Tới trang blog</a>
+        <ul>
+            <li> HTML, CSS là gì? </li>
+            <li> Cài đặt môi trường</li>
+        </ul>
+
+        <table>
+            <thead>                     <!-- table head-->
+                <th> STT </th>          <!-- table heading-->
+                <th> Name</th>
+                <th> Địa chỉ </th>
+            </thead>
+            <tbody>                 <!-- table body-->
+                <tr>                <!-- table row-->
+                    <td>1</td>      <!-- table data-->
+                    <td>Bim Beo</td>
+                    <td>Hà Nội</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bim Beo</td>
+                    <td>Hà Nội</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bim Beo</td>
+                    <td>Hà Nội</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            Tên đăng nhập <input type="text">
+            Mật khẩu <input type="password">
+        </div>
+        <h1 title="Đây là tiêu đề" style="color: royalblue;font-size: 16px;" > Attribute? </h1>
+        <div>
+            <h1 id="first-heading"> CSS selectors? </h1>
+            <h1 class="second_heading">CSS selectors? </h1>
+            <h1 class="second_heading">CSS selectors? </h1>
+            <h2 class="second_heading">ID & Class? </h2>
+        </div>
+        <div class="box" data-title="Đây là box màu hồng"> 
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <a href="http://minhphailamgi.com/"> Mình phải làm gì? (http://minhphailamgi.com/)</a>
+        <div class="box box1"> Box 1</div>
+        <div class="box box2"> Box 2</div>
+        <div class="box box3"> Box 3</div>
+        <div class="header"></div>
+        <span class="iconify" data-icon="mdi:ab-testing" data-inline="false"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M4 2a2 2 0 0 0-2 2v8h2V8h2v4h2V4a2 2 0 0 0-2-2H4m0 2h2v2H4m18 9.5V14a2 2 0 0 0-2-2h-4v10h4a2 2 0 0 0 2-2v-1.5a1.54 1.54 0 0 0-1.5-1.5a1.54 1.54 0 0 0 1.5-1.5M20 20h-2v-2h2v2m0-4h-2v-2h2M5.79 21.61l-1.58-1.22l14-18l1.58 1.22z" fill="currentColor"></path></svg>
+</html>
